@@ -17,7 +17,10 @@ export function About() {
             <p>
               {"I'm "}
               <span className="text-foreground">Mani Chandra Edara</span>
-              {', an aspiring Linux and DevOps Engineer. I enjoy understanding how systems fit together — from the operating system and network up to the pipeline that builds and ships an application.'}
+              {', an aspiring Linux and DevOps Engineer. I enjoy understanding how systems fit together — from the operating system and network up to the pipeline that builds and ships an application. '}
+              <span className="text-foreground">
+                {"I'm especially interested in Linux administration, AWS cloud infrastructure, and DevOps automation."}
+              </span>
             </p>
             <p>
               {'My hands-on work centers on '}
