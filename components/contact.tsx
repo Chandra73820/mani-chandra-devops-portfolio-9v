@@ -6,7 +6,7 @@ export function Contact() {
   return (
     <section id="contact" aria-labelledby="contact-heading" className="border-t border-border py-20 md:py-28">
       <div className="mx-auto max-w-6xl px-6">
-        <SectionHeading id="contact-heading" eyebrow="04 / Contact" title="Get in touch" />
+        <SectionHeading id="contact-heading" eyebrow="05 / Contact" title="Get in touch" />
 
         <div className="relative overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-primary/15 via-card to-card p-8 md:p-12">
           <p className="max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">

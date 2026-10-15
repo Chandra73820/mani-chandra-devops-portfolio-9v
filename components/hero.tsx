@@ -20,7 +20,7 @@ export function Hero() {
       <div className="mx-auto max-w-6xl px-6">
         <p className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 font-mono text-xs text-primary">
           <span className="size-1.5 rounded-full bg-primary" aria-hidden="true" />
-          .NET · C# · SQL Server
+          Linux | AWS | DevOps Engineer
         </p>
 
         <h1
@@ -34,7 +34,7 @@ export function Hero() {
         </h1>
 
         <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-          {"I'm a developer who builds backend services and REST APIs with .NET, C#, and SQL Server. My featured work is a Clinical Terminology Service API that models medical concept hierarchies."}
+          {"I'm an aspiring Linux and DevOps Engineer building hands-on projects in Linux administration, AWS cloud infrastructure, and CI/CD automation with Jenkins, Docker, and GitHub Actions."}
         </p>
 
         <div className="mt-10 flex flex-col gap-3 sm:flex-row">
@@ -42,7 +42,7 @@ export function Hero() {
             href="#projects"
             className="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-primary px-6 text-sm font-medium text-primary-foreground shadow-lg shadow-primary/25 transition-colors hover:bg-primary/90"
           >
-            View featured project
+            View projects
             <ArrowRight className="size-4" aria-hidden="true" />
           </a>
           <a

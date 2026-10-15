@@ -7,15 +7,15 @@ const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'Mani Chandra Edara — Software Developer',
+  title: 'Mani Chandra Edara — Linux | AWS | DevOps Engineer',
   description:
-    'Portfolio of Mani Chandra Edara, a developer working with .NET, C#, and SQL Server. Featuring the Clinical Terminology Service API with concept hierarchy support.',
+    'Portfolio of Mani Chandra Edara, an aspiring Linux and DevOps Engineer. Hands-on projects with AWS VPC, EC2, Jenkins, Maven, Docker, and GitHub Actions.',
   generator: 'v0.app',
   authors: [{ name: 'Mani Chandra Edara', url: 'https://github.com/Chandra73820' }],
   openGraph: {
-    title: 'Mani Chandra Edara — Software Developer',
+    title: 'Mani Chandra Edara — Linux | AWS | DevOps Engineer',
     description:
-      'Featuring the Clinical Terminology Service API built with .NET and SQL Server.',
+      'Hands-on Linux administration, AWS cloud infrastructure, and CI/CD projects.',
     type: 'website',
   },
   icons: {

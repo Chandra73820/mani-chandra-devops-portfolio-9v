@@ -1,9 +1,9 @@
 import { SectionHeading } from './section-heading'
 
 const focusAreas = [
-  { title: 'Backend APIs', text: 'Designing RESTful services with .NET and C#.' },
-  { title: 'Data modeling', text: 'Structuring relational data in SQL Server.' },
-  { title: 'Delivery tooling', text: 'Working with Git, Docker, Jenkins, Linux, and AWS.' },
+  { title: 'Linux administration', text: 'Working on the command line, managing services, and scripting with Bash.' },
+  { title: 'Cloud infrastructure', text: 'Configuring AWS networking and compute with VPC, EC2, IAM, and S3.' },
+  { title: 'Automation & CI/CD', text: 'Building and deploying with Jenkins, Maven, Docker, and GitHub Actions.' },
 ]
 
 export function About() {
@@ -17,15 +17,19 @@ export function About() {
             <p>
               {"I'm "}
               <span className="text-foreground">Mani Chandra Edara</span>
-              {', a developer focused on building backend services with the Microsoft stack. I enjoy turning structured domain data into clean, well-defined APIs that other applications can rely on.'}
+              {', an aspiring Linux and DevOps Engineer. I enjoy understanding how systems fit together — from the operating system and network up to the pipeline that builds and ships an application.'}
             </p>
             <p>
-              {'My featured project is a '}
-              <span className="text-foreground">Clinical Terminology Service API</span>
-              {', built with .NET and SQL Server. It represents medical concepts as a hierarchy and exposes an endpoint to determine whether one concept is a descendant of another.'}
+              {'My hands-on work centers on '}
+              <span className="text-foreground">Linux administration</span>
+              {' and '}
+              <span className="text-foreground">AWS cloud infrastructure</span>
+              {', including designing a VPC with public and private subnets and configuring routing so EC2 instances can communicate as intended.'}
             </p>
             <p>
-              {'Alongside .NET development, I work with Git and GitHub for version control, and with Linux, Docker, Jenkins, and AWS for building and running software.'}
+              {'I also build '}
+              <span className="text-foreground">automation and CI/CD</span>
+              {' workflows — using Jenkins with Maven for Java builds, and GitHub Actions with Docker for containerized deployments — while keeping everything under version control with Git and GitHub.'}
             </p>
           </div>
 
