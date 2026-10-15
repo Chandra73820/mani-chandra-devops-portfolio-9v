@@ -14,7 +14,7 @@ const features = [
   {
     icon: Search,
     title: 'Descendant check endpoint',
-    text: 'A REST endpoint accepts two concepts and answers whether the first is a descendant of the second anywhere in the hierarchy — not only as a direct child.',
+    text: 'GET /api/Hierarchy/is-descendant takes a code system, version, parent code, and child code, and returns whether the child concept is a descendant of the parent concept.',
   },
 ]
 
