@@ -102,17 +102,26 @@ export function Projects() {
               className="flex min-w-0 flex-col gap-6 rounded-2xl border border-border bg-card p-6 transition-colors hover:border-primary/40 md:p-8"
             >
               <div>
-                <p className="font-mono text-xs uppercase tracking-wider text-primary">Hands-on · CI/CD</p>
+                <p className="font-mono text-xs uppercase tracking-wider text-primary">Hands-on · Containers &amp; AWS</p>
                 <h3 id="patient-order-title" className="mt-3 text-xl font-semibold tracking-tight text-foreground md:text-2xl">
-                  Patient Order CI/CD
+                  Patient Order Application
                 </h3>
                 <p className="mt-3 leading-relaxed text-muted-foreground">
-                  A CI/CD pipeline for a Patient Order application using GitHub Actions to automate building the
-                  application into a Docker image, with integration into AWS ECR for storing container images.
+                  Built and validated a Dockerized Patient Order application, pulled its container image from Amazon
+                  ECR, and ran it on an EC2 instance. Verified application health using the{' '}
+                  <code className="rounded bg-secondary px-1.5 py-0.5 font-mono text-sm text-foreground">/health</code>{' '}
+                  endpoint, which returned{' '}
+                  <code className="rounded bg-secondary px-1.5 py-0.5 font-mono text-sm text-primary">
+                    {'{"status":"healthy"}'}
+                  </code>
+                  . Also worked on GitHub Actions CI workflow configuration and AWS ECR integration.
                 </p>
               </div>
-              <TechList items={['GitHub Actions', 'Docker', 'AWS ECR']} />
-              <PipelineFlow label="Pipeline flow" steps={['git push', 'GitHub Actions', 'Docker build', 'AWS ECR']} />
+              <TechList items={['Docker', 'Amazon ECR', 'Amazon EC2', 'GitHub Actions']} />
+              <PipelineFlow
+                label="Deployment & validation steps"
+                steps={['Docker image', 'Pull from ECR', 'Run on EC2', 'GET /health']}
+              />
               <div className="mt-auto">
                 <GithubLink />
               </div>

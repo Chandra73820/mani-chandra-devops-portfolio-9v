@@ -9,7 +9,7 @@ A one-page portfolio for Mani Chandra Edara, an aspiring Linux and DevOps Engine
 - **Technical Skills** — Linux, Bash, AWS (EC2, VPC, IAM, S3), networking, Git, GitHub, Jenkins, Maven, Docker, GitHub Actions, and CI/CD.
 - **Featured Projects** (hands-on)
   - **AWS VPC Infrastructure** — Public/private subnets, Internet Gateway, NAT Gateway, route tables, and EC2 connectivity.
-  - **Patient Order CI/CD** — GitHub Actions and Docker, with AWS ECR integration.
+  - **Patient Order Application** — Dockerized app pulled from Amazon ECR and run on EC2, validated via its `/health` endpoint; also worked on GitHub Actions CI workflow configuration and ECR integration.
   - **Jenkins Automation** — Java application built with Maven through Jenkins build/deployment workflows.
 - **Learning Journey** — Infrastructure configuration, troubleshooting, version control, and deployment.
 - **Contact** — [github.com/Chandra73820](https://github.com/Chandra73820)
